@@ -2,7 +2,7 @@
     "name": "Analog Clock",
     "author": "Jesse Anderson",
     "caption": "Analog Clock",
-    "version": "1.0",
+    "version": "1.0.2",
     "website": "https://github.com/jessea3/Tingbot-Analog-Clock",
     "//": "For more information about this file, go to: http://docs.tingbot.com/reference/tingapp-format/"
 }

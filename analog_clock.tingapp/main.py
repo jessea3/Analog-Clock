@@ -14,8 +14,11 @@ clock_radius = 45
 
 # setup code here
 
-os.environ['TZ'] = 'EST+05EDT,M4.1.0,M10.5.0'
+#os.environ['TZ'] = 'EST+05EDT,M4.1.0,M10.5.0'
+os.environ['TZ'] = tingbot.app.settings['timezone']
 time.tzset()
+
+screen.brightness = tingbot.app.settings['brightness']
 
 @every(seconds=1.0/30)
 def loop():
